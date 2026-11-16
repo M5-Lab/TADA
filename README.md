@@ -12,7 +12,7 @@ Saptarshi Saha, Amit Acharya, and Gerald J. Wang, *Journal of Chemical Theory an
 
 ```bash
 python -m pip install -r requirements.txt
-python TADA.py examples/directors.txt --cutoff 4.5 --seed 0 --output output/tada.txt
+python TADA.py path/to/director_field.txt --cutoff 4.5 --seed 0 --output output/tada.txt
 ```
 
 Input is a whitespace-delimited `x y z nx ny nz` table. Output contains the aligned directors and `assignment_order`.
@@ -39,7 +39,6 @@ Pass `--no-dla` to stop after layer construction. The OVITO desktop GUI exposes 
 
 - `examples/Plushalf` — planar +1/2 defect.
 - `examples/Comet` — three-dimensional comet configuration.
-- `examples/directors.txt` — compact standalone smoke-test input.
 
 For additional 2D/3D examples and GUI documentation, see [OVITO Nematics](https://github.com/Sapta98/Nematics).
 
