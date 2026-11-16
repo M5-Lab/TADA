@@ -1,6 +1,12 @@
-# TADA — Traversal-based Alignment of Directors Algorithm
+# TADA — Topology-Accommodating Direction Assignment Algorithm
 
 TADA resolves nematic head–tail ambiguity by growing an oriented director field through a distance-sorted neighbor graph. This repository provides the current standalone algorithm and the complete pipeline required to run TADA through [OVITO Nematics](https://github.com/Sapta98/Nematics).
+
+## Paper
+
+The original TADA paper is available in this repository: [TADA: The Topology-Accommodating Direction Assignment Algorithm for Liquid Crystals](paper/TADA.pdf).
+
+Saptarshi Saha, Amit Acharya, and Gerald J. Wang, *Journal of Chemical Theory and Computation* **2023**, *19*, 324–332. [https://doi.org/10.1021/acs.jctc.2c00826](https://doi.org/10.1021/acs.jctc.2c00826)
 
 ## Standalone quick start
 
